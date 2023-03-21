@@ -53,8 +53,8 @@ function App() {
 							onSelectSortOrder={(sortOrder) => setGameQuery({ ...gameQuery, sortOrder })}
 						/>
 					</Flex>
-					<GameGrid gameQuery={gameQuery} />
 				</Box>
+				<GameGrid gameQuery={gameQuery} />
 			</GridItem>
 		</Grid>
 	);
